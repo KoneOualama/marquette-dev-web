@@ -1,0 +1,50 @@
+/*ECTION 1*/
+
+.section1{
+    background-image: url("images/Marmite-inox-TOP.jpg");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*NAVBAR*/
+
+.section1 ul li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;   
+}
+
+.section1 ul li a{
+    list-style: none;
+    font-size: 30px;
+    color: rgb(255, 255, 255);  
+}
+
+/*FORMULAIRE*/
+
+.image{
+    background: url("images/Marmite-inox-TOP.jpg");
+    height: 1200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-item a{
+    font-size: 25px;
+    position: relative;
+    left: 900px;
+    color: rgb(238, 123, 16);
+    padding: px;
+}
+label{
+    color: rgb(255, 255, 255);
+    margin-right: 400px;
+    font-weight: bolder;
+    font-size: 30px; 
+}
+
+/*LE CODE CSS DE LA PAGE INDEX*/
+
+
+

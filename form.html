@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container-fluid image">
+        
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" style="opacity: 0.5;">
+            <a class="navbar-brand" href="#">BMB FABRIQUE</a>
+            <ul class="navbar-nav" >
+              <li class="nav-item">
+                <a class="nav-link" href="index.html" style="color: tomato;">Accueil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="boutique.html" style="color: tomato;">Boutique</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="form.html" style="background: orangered; color: white;">Contactez-nous</a>
+              </li>
+            </ul>
+          </nav>
+          <h1 style="position:relative; top: 200px; text-align: center; ">FORMULAIRE DE CONTACT</h1>
+          
+          <div class="container" style="position: relative; top: 250px; text-align: center;">
+            <form action="traitement/insertion.php" method="POST">
+                <label for="">NOM</label><br>
+                <input type="text" name="nom" placeholder="Veuillez entrer votre nom" style="width:550px; padding: 15px;" required><br>
+                <label for="">ARTCLE</label><br>
+                <input type="text" name="article" placeholder="Veuillez entrer votre nom" style="width:550px; padding: 15px;" required><br>
+                <label for="">E-MAIL</label><br>
+                <input type="email" name="email" placeholder="Veuillez entrer votre nom" style="width:550px; padding: 15px;" required><br>
+                <label for="">TELEPHONE</label><br>
+                <input type="number" name="téléphone" placeholder="Veuillez entrer votre nom" style="width:550px; padding: 15px;" required><br><br>
+                <textarea name="message" id="" cols="30" rows="10" style="width: 550px;" placeholder="MESSAGE"></textarea><br>
+                <button type="submit" class="btn btn-warning">SOUMETTRE</button>
+            </form>
+        </div>
+    
+        
+    </div>
+
+    
+</body>
+</html>
